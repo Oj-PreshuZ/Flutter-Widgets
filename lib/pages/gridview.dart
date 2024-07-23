@@ -7,6 +7,7 @@ class GridViewPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         body: GridView.builder(
+      physics: const NeverScrollableScrollPhysics(),
       itemCount: 10,
       gridDelegate:
           SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 4),

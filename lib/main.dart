@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:widgets/pages/containerpage.dart';
-import 'package:widgets/pages/listview.dart';
+import 'package:widgets/pages/gridview.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(primarySwatch: Colors.deepPurple),
-      home: ListViewPage(),
+      home: const GridViewPage(),
     );
   }
 }
