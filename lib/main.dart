@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:widgets/pages/bottomnav.dart';
 import 'package:widgets/pages/gridview.dart';
 
 void main() {
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(primarySwatch: Colors.deepPurple),
-      home: const GridViewPage(),
+      home: const BottomNavPage(),
     );
   }
 }
