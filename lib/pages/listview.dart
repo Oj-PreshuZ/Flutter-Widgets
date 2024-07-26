@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:widgets/circle.dart';
-import 'package:widgets/square.dart';
+import 'package:widgets/page/circle.dart';
+import 'package:widgets/page/square.dart';
 
 class ListViewPage extends StatelessWidget {
   final List _posts = [

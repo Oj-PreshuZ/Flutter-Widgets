@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:widgets/page/first_page.dart';
 import 'package:widgets/page/second_page.dart';
-import 'package:widgets/pages/appbar.dart';
-import 'package:widgets/pages/bottomnav.dart';
 import 'package:widgets/pages/drawer.dart';
-import 'package:widgets/pages/gridview.dart';
+import 'package:widgets/pages/sliverappbar.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(primarySwatch: Colors.deepPurple),
-      home: const DrawerPage(),
+      home: const SliverAppBarPage(),
       routes: {
         '/firstpage': (context) => const FirstPage(),
         '/secondpage': (context) => const SecondPage()
